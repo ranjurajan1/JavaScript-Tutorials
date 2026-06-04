@@ -156,9 +156,60 @@
 
 //DO WHILE LOOP
 //.. Print 1 to 10 numbers
-let i =1;
-do{
-console.log(i);
-i++
-}
-while(i<=10);
+// let i =1;
+// do{
+// console.log(i);
+// i++
+// }
+// while(i<=10);
+// //output 1 to 10
+
+//PRINT DECENDING ORDER 10,9,8...1
+//************************** 
+// let i =10;
+// do{
+//     console.log(i);
+//     i-=1 //i--
+// }
+// while(i>0);
+// ouput : 10,9,8,7,...1
+
+
+//FORLOOP
+//PRINT 1-10 NUMBER
+// let i=1// or 
+// for(let i=1;i<=10;i++)
+// {
+//     console.log(i);
+// }
+// //output 1 ,2,3,4,5,6,7,8,9,10
+//even numbers between 1-10
+// let i=2;
+// for(i=2;i<=10;i++)
+// {
+// console.log(i);
+// }
+
+
+//Jumping statements - break 
+// for(let i=1;i<=10;i++)
+// {
+// if (i==5) // 
+//     console.log(i);
+// }
+//Jumping statements - continue (skip the value)
+// for(let i=1;i<=10;i++)
+// {
+// if (i==5)
+//    continue;
+//     console.log(i);
+// }
+//--------Multiple 
+// for(let i=1;i<=10;i++)
+// {
+// if (i==5 || i == 6 || i== 9) //or skip multiple values (i == 3 || i==5)
+// //     break;
+//    continue;
+//     console.log(i);
+// }
+// //output : 1,2,3,4,7,8,10
