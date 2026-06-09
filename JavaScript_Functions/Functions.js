@@ -191,12 +191,12 @@
 // FUNCTION USING RETURN TYPE
 //*****************************//
 
-// function StrinfInfo()
-// {
-//     return "I am Ranju";
-// }
-// finalresult = StrinfInfo();
-// console.log(finalresult);
-//Output : ranju
-//purpose : logic + result 
+function StrinfInfo()
+{
+    return "I am Ranju";
+}
+finalresult = StrinfInfo();
+console.log(finalresult);
+Output : ranju
+purpose : logic + result 
 
