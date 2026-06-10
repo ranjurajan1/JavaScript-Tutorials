@@ -46,6 +46,7 @@
 
 //***************************//
 
+
 //EXAPMLE 1
 
 // function FavIteam(food)
@@ -141,6 +142,13 @@
 // DrinkGlass("Water");
 // Output : Iam drinking a glass ofWater
 
+//EXPAMPLE 8
+// function add(a,b)
+// {
+//     console.log("sum is" + a + b);
+// }
+// add(10,20);
+
 
 //FUNCTIONS USING MULTIPLE PARAMETERS
 
@@ -191,12 +199,13 @@
 // FUNCTION USING RETURN TYPE
 //*****************************//
 
-function StrinfInfo()
-{
-    return "I am Ranju";
-}
-finalresult = StrinfInfo();
-console.log(finalresult);
-Output : ranju
-purpose : logic + result 
+// function StrinfInfo()
+// {
+//     return "I am Ranju";
+// }
+// finalresult = StrinfInfo();
+// console.log(finalresult);
+// Output : ranju
+// purpose : logic + result 
+
 
