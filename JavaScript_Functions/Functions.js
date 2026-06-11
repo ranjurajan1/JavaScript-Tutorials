@@ -141,14 +141,32 @@
 // }
 // DrinkGlass("Water");
 // Output : Iam drinking a glass ofWater
+//----------------------
 
 //EXPAMPLE 8
+
+//Adding Two numbers
+
 // function add(a,b)
 // {
-//     console.log("sum is" + a + b);
+//     console.log( "sum is" , a + b);
 // }
 // add(10,20);
+//Sum is 30
 
+//----------------------
+
+//EXPAMPLE 9
+
+//Subsctracting two numbers
+// function substract(b,c)
+// {
+//     console.log("substracted", b - c);
+// }
+// substract(50,70);
+// Output is substracted -20
+
+//----------------------
 
 //FUNCTIONS USING MULTIPLE PARAMETERS
 
@@ -192,20 +210,65 @@
 //     console.log("I bought" + quantity + itemname + " for" + price + " dollar ")
 // }
 // BuyItem(" Tomato,"," 3KILO"," 100");
+
 // I bought 3KILO Tomato, for 100 dollar 
 
 //----------------------
 
-// FUNCTION USING RETURN TYPE
-//*****************************//
+
+// 3.  FUNCTION USING RETURN TYPE
+//*******************************/
+
+// function add(a,b)
+// {
+//     return(a+b);
+// }
+// let addition = add(50,30);
+// console.log(addition);
+//Output : 80
+
+//----------------------
+
+//Sometimes functions not taking any arguments and returns a value EXAMPLE 2 and  EXAMPLE 3 Same pgm diff ways
+
+// function greetings()
+// {
+//     console.log("hey.. Good Morning");
+// }
+// greetings();
+// Output : hey.. Good Morning
+
+//----------------------
+
+// function greetings()
+//     {
+//      return("hey good night")
+//     }
+// let msg= greetings(); // optional  -> avoid this step and print function inside console
+// console.log(msg); // or console.log(greetings());
+// hey good night 
+
+//----------------------
+
+// function greetings()
+//     {
+//      return("hey good afternoon")
+//     }
+// greetings()
+// console.log(greetings()); // call function inside console
+// hey good afternoon
+
+
+//----------------------
 
 // function StrinfInfo()
-// {
-//     return "I am Ranju";
+// {    
+//     return ("I am Ranju");
 // }
-// finalresult = StrinfInfo();
-// console.log(finalresult);
-// Output : ranju
-// purpose : logic + result 
+// console.log(StrinfInfo()); 
 
+// Directly called the function inside the console
+
+
+//----------------------
 
