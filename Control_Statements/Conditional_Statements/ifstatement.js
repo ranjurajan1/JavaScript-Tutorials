@@ -7,5 +7,3 @@ if (persons_age>=18)
     console.log("You are not eligible for vote");
 //________________________________________________
 
-let isRaining=true;
-if 
