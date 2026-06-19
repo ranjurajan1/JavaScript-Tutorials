@@ -92,3 +92,19 @@ console.log(city); // Kozhikode
 // const - CANNOT be re-declared
 const country = "India";
 const country = "USA";  // ❌ Error: already declared
+
+
+//----------------------------------------
+
+// var - CAN be re-declared
+var name = "Arjun";
+var name = "Rahul";   // ✅ No error
+console.log(name);    // Rahul
+
+// let - CANNOT be re-declared
+let city = "Kochi";
+let city = "Kozhikode"; // ❌ Error: already declared
+
+// const - CANNOT be re-declared
+const country = "India";
+const country = "USA";  // ❌ Error: already declared
