@@ -106,5 +106,5 @@ let city = "Kochi";
 let city = "Kozhikode"; // ❌ Error: already declared
 
 // const - CANNOT be re-declared
-const country = "India";
+const country = "Canada";
 const country = "USA";  // ❌ Error: already declared
