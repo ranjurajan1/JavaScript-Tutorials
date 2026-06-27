@@ -189,3 +189,69 @@ let x=12,y=20;
 
 // let a = false;
 // console.log(!a); // true (Opposite)
+//-----------------------
+
+// 1. Arithmetic Operators (Maths operations)
+
+// let a = 10;
+// let b = 3;
+
+// console.log(a + b);   // 13  → Addition
+// console.log(a - b);   // 7   → Subtraction
+// console.log(a * b);   // 30  → Multiplication
+// console.log(a / b);   // 3.33 → Division
+// console.log(a % b);   // 1   → Remainder (Modulus)
+
+
+// 2. Assignment Operators (Shortcut to update value)
+
+// let x = 10;
+// x += 5;   // same as: x = x + 5  → x becomes 15
+// x -= 3;   // same as: x = x - 3  → x becomes 12
+// x *= 2;   // same as: x = x * 2  → x becomes 24
+// x /= 4;   // same as: x = x / 4  → x becomes 6
+
+// 3. Comparison Operators (Gives true/false)
+
+// let a = 10;
+// let b = 5;
+
+// console.log(a > b);    // true
+// console.log(a < b);    // false
+// console.log(a >= 10);  // true
+// console.log(a <= 10);  // true
+// console.log(a == 10);  // true  (checks value only)
+// console.log(a != b);   // true
+
+// ⚠️ Most Important: == vs ===
+
+// let num = 5;
+// console.log(num == "5");   // true  ❌ Loose check (avoid)
+// console.log(num === "5");  // false ✅ Strict check (value + type)
+// console.log(num === 5);    // true  ✅
+
+// 4. Logical Operators (Combine conditions)
+
+// javascriptlet age = 25;
+// let hasId = true;
+
+// console.log(age > 18 && hasId === true);  // true  → AND (both true)
+// console.log(age > 30 || hasId === true);  // true  → OR (at least one true)
+// console.log(!hasId);         
+
+
+// 5. String Operator (Joining text)
+// javascriptlet first = "Arjun";
+// let last = "Kumar";
+
+// let fullName = first + " " + last;   // using +
+// console.log(fullName);  // Arjun Kumar
+
+// let greet = `Hello, ${first}!`;       // template literal ⭐ better way
+// console.log(greet);     // Hello, Arjun!
+
+
+// let num = 5;
+// console.log(num == "5");   // true  ❌ Loose check (avoid)
+// console.log(num === "5");  // false ✅ Strict check (value + type)
+// console.log(num === 5);    // true  ✅
