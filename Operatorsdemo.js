@@ -255,3 +255,10 @@ let x=12,y=20;
 // console.log(num == "5");   // true  ❌ Loose check (avoid)
 // console.log(num === "5");  // false ✅ Strict check (value + type)
 // console.log(num === 5);    // true  ✅
+
+
+let age = 20;
+
+if (age >= 18) {
+    console.log("You are an adult");
+}
