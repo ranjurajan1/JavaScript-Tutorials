@@ -1,0 +1,25 @@
+//🧪 Practice Questions — Conditions
+//---------------------------------------------------
+
+// example Q1 : Check if a number is positive. If yes, print "Positive number".
+
+// let number=25;
+// if (number % 2==0)
+// {
+//     console.log("Positive number");
+// }
+//  console.log("Negative number");
+// Negative number
+
+//---------------------------------------
+ 
+ // EXAMPLE Q2. Check if a student's marks are above 35 (pass mark). If yes, print "Passed".
+// let mark = 40;
+// if (mark>35)
+// {
+//     console.log("Passed");
+// }
+// Passed
+
+//---------------------------------------
+
