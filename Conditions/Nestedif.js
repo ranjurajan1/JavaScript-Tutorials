@@ -15,3 +15,14 @@
 //     console.log("Sorry, you are underage");
 // }
 //Welcome! Enjoy the movie
+// if (first condition) {
+
+//     if (second condition) {
+//         // both conditions true
+//     } else {
+//         // only first true, second false
+//     }
+
+// } else {
+//     // first condition itself is false
+// }
