@@ -74,7 +74,7 @@
 //---------------------------
 // Q3. Print only EVEN numbers from 1 to 20
 
-   for(i=2;i<=20;i+=2)
-   {
-      console.log(i);
-   }
+   // for(i=2;i<=20;i+=2)
+   // {
+   //    console.log(i);
+   // }
