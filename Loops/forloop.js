@@ -1,25 +1,35 @@
-// for(i=1;i<=5;i++){
-//     console.log("hello",i);
-// }
-//output
-//hello 1
-//hello 2
-//hello 3
-//hello 4
-//hello 5
-//-----------------------------------------
 
-//EXAMPLE 2
+//EXAMPLE 1  :  Print 1 to 10 using for loop
 
-//Print 1 to 10 using for loop
 // for(i=1;i<=10;i++)
 // {
 //     console.log(i);
 // }
 //output 1 , 2 , 3 ,4 5,6, 7, 8,9,10
+
 //---------------------------------
 
-//EXAMPLE 3 - Print multiplication table of 5
+//EXAMPLE 2  :  Print 10 to1 using for loop
+
+// for(i=10;i>=0;i--)
+// {
+//     console.log(i);
+// }
+//output 10 , 9 , 8 ,7 6,5, 4, 3,2,1
+
+//---------------------------------
+
+//EXAMPLE 3  : Print only EVEN numbers from 1 to 20
+
+// for(i=2;i<=20;i+=2)
+// {
+//     console.log(i);
+// }
+//Output 2,4,6,8,10,12,14,16,18,20
+
+//---------------------------------
+
+//EXAMPLE 4 - Print multiplication table of 5
 
 // for(i=1;i<=10;i++)
 // {
@@ -33,15 +43,36 @@
 // +             → JOIN
 // (5 * i)
 
-//--------------------------------------
+//---------------------------------
 
-//EXAMPLE 4 -  Print only EVEN numbers from 1 to 20
+//EXAMPLE 5 - Print only ODD numbers from 1 to 20
 
-// for(i=2;i<=20;i+=2)
+// for(i=1;i<=19;i+=2)
 // {
 //     console.log(i);
 // }
-//output 2,4,6,8,10,12,14,16,18,20
+//Output 1,3,5,7,9,11,13,15,17,19
+
+//===================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //--------------------------------------
 //EXAMPLE 6 - Calculate sum of numbers from 1 to 10
@@ -60,25 +91,21 @@
 // }
 //-----------------------------------------
 
-// Q1. Print numbers 1 to 10
-// for(i=1;i<=10;i++)
-// {
-//    console.log(i);
-// }
-//---------------------------
-// Q1. Print numbers 10 to 1
-// for(i=10;i>=1;i--)
-// {
-//    console.log(i);
-// }
-//---------------------------
-// Q3. Print only EVEN numbers from 1 to 20
 
-   // for(i=2;i<=20;i+=2)
-   // {
-   //    console.log(i);
-   // }
 
-   for (let i = 10; i >= 1; i--) {
-    console.log(i);
-}
+
+
+
+
+
+
+// for(i=1;i<=5;i++){
+//     console.log("hello",i);
+// }
+//output
+//hello 1
+//hello 2
+//hello 3
+//hello 4
+//hello 5
+//-----------------------------------------
