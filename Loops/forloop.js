@@ -9,7 +9,7 @@
 
 //---------------------------------
 
-//EXAMPLE 2  :  Print 10 to1 using for loop
+//EXAMPLE 2  :  Print 10 to 1 using for loop
 
 // for(i=10;i>=0;i--)
 // {
@@ -42,6 +42,7 @@
 // " = "         → text piece 3
 // +             → JOIN
 // (5 * i)
+//Output : 5 *1 = 5 , 5 * 2 = 10
 
 //---------------------------------
 
@@ -55,8 +56,12 @@
 
 //===================================
 
+//EXAMPLE 6 - Print multiplication table of 3
 
-
+for(i=1;i<=10;i++)
+{
+    console.log("3 * " + i + " = " + (3 * i));
+}
 
 
 
