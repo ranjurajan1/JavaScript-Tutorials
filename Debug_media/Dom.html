@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id= "header">Test</h1> //id <!--debug media displayed in browser-->
+    <h1 class="header">Test</h1>//[0] //class
+    <h1 class="header">Exam</h1>//[1] //class
+
+ 
+<script>
+
+document.getElementById("header").innerHTML = "Debug Media";  //id
+
+document.getElementsByClassName("header")[0].innerHTML="ranjuty" //class [0]
+document.getElementsByClassName("header")[1].innerHTML="Adhnan" //class  [1]
+document.getElementsByClassName("header")[0].innerHTML="susi" //class  [1]
+
+//document.getElementsByTagName("h1")[0].innerHTML = "Updated Wishlist"; //Tag Name 
+
+
+</script>
+
+</body>
+</html>
